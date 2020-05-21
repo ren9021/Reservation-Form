@@ -1,0 +1,62 @@
+body {
+    color: black;
+    background-color: pink;
+    font-family: helvetica;
+    text-align: center;
+    border-style: solid;
+    border-width: 100px;
+    font-weight: bold;
+  }
+  #title {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  #description {
+    text-align: center;
+    font-weight: bold;
+    }
+  .checkboxes input
+  vertical align: middle;
+    
+  
+  #survey-form {
+    font-family: helvetica;
+    display: inline-block;
+    width: 100px;
+  }
+  #name-label {
+   margin: 20px;
+   width: 200px;
+   padding: 10px;
+   }
+  #email-label {
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+  }
+  #number-label {
+    margin: 20px;
+    width: 170px;
+    padding: 10px;
+  }
+  #dropdown {
+    font-family: helvetica;
+    font-weight: bold;
+    }
+  #food-dropdown {
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+  }
+  #after-party {
+    font-weight: bold;
+    }
+  #how-you-heard {
+    font-weight: bold;
+  }
+  #comments {
+    width: 400px;
+  }
+  

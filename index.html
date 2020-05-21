@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description"
+    <content="survey form">
+    <title>Event Planning Survey</title>
+  </head>
+  <body>
+  <main>
+    <h1 id="title">Hilton Christmas Party Survey</h1>
+    <p id="description">Let us know if you're attending! (Deadline is Dec.5th)</p>
+    <br>
+    <br>
+    <br>
+    <div>
+    <form id="survey-form"> 
+      <label for="name"id="name-label">Name</label>
+        <input type="text" required id="name"placeholder="Your Name"></input>
+    <label for="email"id="email-label">Email</label>  
+     <input type="email" required id="email"placeholder="Your Email"text type="email"></input>
+    <label for="number"id="number-label">Number of Plus Ones</label>
+     <input type="number" max="2" min="0"required id="number"placeholder="#"></input>
+ <br>
+ <br>
+ <br>
+    
+<p>Please select your food of choice</p>
+<select id="dropdown">
+  <option value="chicken">Chicken</option>
+  <option value="fish">Fish</option>
+  <option value="steak">Steak</option>
+  <option value="vegetarian">Vegetarian</option>
+ </select>
+  <br>
+  <br>
+    <p id="after-party">Will You Attend The After Party?
+ <label for="yes">
+   <input id="yes" value="yes"type="radio" name="affirmation"required>Yes
+ </label>
+ <label for="no">
+   <input id="no" value="no"type="radio" name="affirmation">No
+ </label>
+    </p>
+ <br>
+ <br>
+ <p id="how-you-heard">How Did You Hear About This Event? 
+  <br>  
+  <br>
+  <div class="checkboxes">
+ <label for="company-email"><input id="company-email" type="checkbox"value="company-email"name="how-you-heard"required>Company Email
+ </label>
+    <br>
+    <br>
+ <label for="office flyer"><input id="office-flyer" type="checkbox"value="office-flyer"name="how-you-heard">Office Flyer
+ </label>
+ <br>
+ <br>
+ <label for="bulletin board"><input id="bulletin-board" type="checkbox"value="office-flyer"name="how-you-heard">Bulletin Board
+ </label>
+    </div>
+    </p>
+ <br>
+ <br>
+  <textarea id="comments"placeholder="Additional Comments Here!"></textarea>
+<br>
+<br>
+<button type="submit"id="submit">SUBMIT</button>
+    
+    
+    
+    
+    </form> 
+  </main>
+  </body>
+</html>
